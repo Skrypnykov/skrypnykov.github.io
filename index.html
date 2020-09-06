@@ -1,21 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-	<meta charset="UTF-8">
-	<title>My first website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <title>My resume</title>
 </head>
 <body>
-	<header>
-		<h1>skrypnykov.github.io</h1>
-	</header>
-	
-	<nav>
-	</nav>
-	
-	<section>
-	</section>
-	
-	<footer>
-	</footer>
+    <!-- main container -->
+    <div class="content">
+
+        <aside class="aside-left">
+            <img src="img/photo.png" alt="Photo Oleh Skrypnykov">
+            <!-- contacts container -->
+            <div class="contact">
+                <h3>Контакты</h3>
+                <div>C: <a href="tel:380958493779">+38 095 849 37 79</a></div>
+                <div>E: <a href="mailto:oskripnikov@gmail.com">oskripnikov@gmail.com</a></div>
+            </div>
+            <!-- tech skills container -->
+            <div class="tech-skills">
+                <h3>Tech Skills</h3>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Bootstrap</li>
+                    <li>PHP</li>
+                    <li>Bootstrap E-commerce</li>
+                    <li>PHP & MySQL</li>
+                    <li>Git</li>
+                </ul>
+            </div>
+            <!-- soft skills container -->
+           <div class="soft-skills">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Ответственность</li>
+                    <li>Самоменеджмент</li>
+                    <li>Быстрая адаптации</li>
+                    <li>Коммуникабельность</li>
+                    <li>Работа в команде</li>
+                    <li>Критическое мышление</li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- about me container -->
+        <div class="about-me">
+            <!-- about me main info -->
+            <div class="about-me-title">
+                <h2>Front-End Developer</h2>
+                <h1>Oleh Skrypnykov</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+            </div>
+            <!-- projects container -->
+            <div class="project">
+                <h3>Мои проекты</h3>
+                <ol>
+                    <li>
+                        <a href="https://github.com/Skrypnykov">https://github.com/Skrypnykov</a>
+                        <span>...................</span>
+                        <span>[ HTML5, CSS3, JavaScript, PHP ]</span>
+                    </li>
+                </ol>
+            </div>
+            <!-- work experience container -->
+            <div class="work-experience">
+                <h3>Опыт работы</h3>
+                <!-- company 1 -->
+                <div class="company">
+                    <h4>Front-End Developer <span>Freelance</span></h4>
+                    <span>
+                        September 2019 - up to now | Ukraine
+                    </span>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li>Risus commodo viverra maecenas.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
+                    </ul>
+                </div>
+                <!-- company 2 -->
+                <div class="company">
+                    <h4>Manager <span>Roga & Kopyta New</span></h4>
+                    <span>
+                        March 2015 - October 2018 | Ukraine
+                    </span>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua.</li>
+                        <li>Quis ipsum suspendisse ultrices gravida.</li>
+                        <li>Risus commodo viverra maecenas.</li>
+                    </ul>
+                </div>
+                <!-- company 3 -->
+                <div class="company">
+                    <h4>Manager <span>Roga & Kopyta LLC</span></h4>
+                    <span>
+                        June 2014 - February 2015 | Ukraine
+                    </span>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li>Quis ipsum suspendisse ultrices gravida.</li>
+                        <li>Risus commodo viverra maecenas.</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- education container -->
+            <div class="education">
+                <h3>Образование</h3>
+                <!-- education info -->
+                <div class="educational-institution">
+                    <h4>Международный институт управления, бизнеса и права. г.Славянск</h4>
+                    <h5>Менеджмент</h5>
+                    <span>
+                        Сентябрь 1993 - Июль 1995 | Украина
+                    </span>
+                </div>
+                <div class="educational-institution">
+                    <h4>Курс в рамках учебной программы «IT nation» на платформе CODIFUN</h4>
+                    <h5><a href="img/codifun_certificate.pdf">«ADVANCED FRONTEND WEB DEVELOPER»</a></h5>
+                    <span>
+                        Апрель 2020 - Сентябрь 2020 | Украина
+                    </span>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>
