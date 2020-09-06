@@ -86,12 +86,16 @@ body {
 .project {
 	margin-top: 64px;
 }
+
 .project h3, .work-experience h3, .education h3  {
 	font-size: 22px;
 	font-weight: 700;
 	margin-bottom: 12px;
 }
-
+.project ol {
+	margin: 0 0 24px;
+	padding-left: 18px;
+}
 .work-experience, .education {
 	margin-top: 55px;
 }
