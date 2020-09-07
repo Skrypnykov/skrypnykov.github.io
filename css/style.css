@@ -80,11 +80,8 @@ body {
 	margin-bottom: 24px;
 }
 .about-me-title p {
-	max-width: 600px;
+	max-width: 570px;
 	margin-bottom: 10px;
-	_-moz-hyphens: auto;
-    	_-webkit-hyphens: auto;
-    	_-ms-hyphens: auto;
 }
 .about-me-title p span {
 	font-weight: 700;
