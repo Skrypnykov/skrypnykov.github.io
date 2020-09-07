@@ -81,7 +81,7 @@ body {
 }
 .about-me-title p {
 	max-width: 550px;
-	margin-botton: 10px;
+	margin-bottom: 10px;
 }
 
 .project {
@@ -106,6 +106,7 @@ body {
 	letter-spacing: 0.48px;
 	margin-bottom: 10px;
 }
+.about-me-title p span,
 .company > h4 > span,
 .education div h4 {
 	color: #ff6b08;
