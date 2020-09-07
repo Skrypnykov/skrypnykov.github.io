@@ -86,6 +86,10 @@ body {
     	-webkit-hyphens: auto;
     	-ms-hyphens: auto;
 }
+.about-me-title p span {
+	font-weight: 700;
+	color: #ff6b08;
+}
 
 .project {
 	margin-top: 64px;
@@ -109,7 +113,6 @@ body {
 	letter-spacing: 0.48px;
 	margin-bottom: 10px;
 }
-.about-me-title p span,
 .company > h4 > span,
 .education div h4 {
 	color: #ff6b08;
