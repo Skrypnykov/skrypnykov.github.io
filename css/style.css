@@ -80,7 +80,8 @@ body {
 	margin-bottom: 24px;
 }
 .about-me-title p {
-	max-width: 413px;
+	max-width: 550px;
+	margin-botton: 10px;
 }
 
 .project {
