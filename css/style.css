@@ -82,7 +82,9 @@ body {
 .about-me-title p {
 	max-width: 550px;
 	margin-bottom: 10px;
-	word-break: break-all;
+	-moz-hyphens: auto;
+    	-webkit-hyphens: auto;
+    	-ms-hyphens: auto;
 }
 
 .project {
