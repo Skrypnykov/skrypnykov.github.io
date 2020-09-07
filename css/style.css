@@ -82,6 +82,7 @@ body {
 .about-me-title p {
 	max-width: 570px;
 	margin-bottom: 10px;
+	text-align: justify;
 }
 .about-me-title p span {
 	font-weight: 700;
