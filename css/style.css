@@ -82,6 +82,7 @@ body {
 .about-me-title p {
 	max-width: 550px;
 	margin-bottom: 10px;
+	word-break: break-all;
 }
 
 .project {
