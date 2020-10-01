@@ -163,6 +163,7 @@ body {
 }
 .educational-institution-link {
 	color: #6666ff;
+	text-decoration: none;
 }
 .educational-institution-link:hover {
 	color: #0066cc;
