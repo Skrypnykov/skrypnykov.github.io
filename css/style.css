@@ -9,7 +9,6 @@ body {
 	background-color: #f5f7fa;
 }
 .wrapper {
-	display: -webkit-flex;
 	display: flex;
 	margin: 2em auto;
 	max-width: 1200px;
@@ -21,9 +20,7 @@ body {
 	letter-spacing: 0.42px;
 }
 .sidebar {
-	-webkit-flex: initial;
 	flex: initial;
-	width: 30,83%;
 	padding-top: 40px;
 	background-color: #1e2939;
 	color: white;
@@ -71,8 +68,7 @@ body {
    }
 
 .main-container {
-  	-webkit-flex: 1;
-		  flex: 1;
+	flex: 1;
 	margin-top: 90px;
 	margin-left: 90px;
 	line-height: 24px;
@@ -149,9 +145,7 @@ body {
 	margin: 0 0 25px;
 	padding-left: 18px;
 }
-.company-item {
-	-text-align: justify;
-}
+
 .educational-institution-specialty {
 	margin: 5px 0 0;
 }
@@ -184,7 +178,6 @@ body {
   
   @media screen and (max-width: 600px) {
 	.wrapper {
-		display: -webkit-flex;
 		display: flex;
 		flex-direction: column;
 		margin: 0;
