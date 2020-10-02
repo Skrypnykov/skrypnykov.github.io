@@ -224,7 +224,7 @@ body {
 }
 @media screen and (max-width: 400px) {
 	.skills-wrapper {
-		display: flex;
+		-display: flex;
 		flex-direction: column;
 	}
 }
@@ -234,5 +234,9 @@ body {
 	}
 	.contact-title {
 		margin: 0 0 10px;
+	}
+	.about-me-title {
+		font-size: 35px;
+		line-height: 35px;
 	}
 }
