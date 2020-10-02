@@ -80,7 +80,7 @@ body {
 }
 .about-me-title {
 	font-size: 45px;
-	line-height: 42px;
+	line-height: 45px;
 	font-weight: 700;
 	margin-bottom: 50px;
 }
@@ -190,6 +190,14 @@ body {
 	}
 	.contact-container {
 		margin: 20px 0 10px;
+		display: flex;
+	}
+	.contact-title {
+		margin-right: 20px;
+	}
+	.contact-item {
+		display: flex;
+		justify-content: flex-start;
 	}
 	.skills-wrapper {
 		display: flex;
@@ -218,5 +226,13 @@ body {
 	.skills-wrapper {
 		display: flex;
 		flex-direction: column;
+	}
+}
+@media screen and (max-width: 370px) {
+	.contact-container {
+		flex-direction: column;
+	}
+	.contact-title {
+		margin: 0 0 10px;
 	}
 }
