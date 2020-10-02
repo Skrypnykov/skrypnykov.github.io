@@ -51,13 +51,17 @@ body {
 	margin-left: 40px;
 	margin-top: 54px;
 }
-.contact-title, .tech-skills-title, .soft-skills-title {
+.contact-title, 
+.tech-skills-title, 
+.soft-skills-title {
 	margin-bottom: 10px;
 }
-.tech-skills-list, .soft-skills-list {
+.tech-skills-list, 
+.soft-skills-list {
 	padding-left: 0;
 }
-.tech-skills-item, .soft-skills-item {
+.tech-skills-item, 
+.soft-skills-item {
 	list-style-type: none;
 }
 .tech-skills-item:before,
@@ -97,7 +101,9 @@ body {
 .project-container {
 	margin-top: 64px;
 }
-.project-title, .work-experience-title, .education-title  {
+.project-title, 
+.work-experience-title, 
+.education-title  {
 	font-size: 22px;
 	font-weight: 700;
 	margin-bottom: 12px;
