@@ -14,13 +14,13 @@ body {
 	max-width: 1200px;
 	box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 	background-color: #ffffff;
+	
 	font-family: Montserrat;
 	font-size: 14px;
 	font-weight: 400;
 	letter-spacing: 0.42px;
 }
 .sidebar {
-	flex: initial;
 	padding-top: 40px;
 	background-color: #1e2939;
 	color: white;
@@ -44,8 +44,9 @@ body {
 .contact-container .contact-item:nth-child(2) .contact-link {
 	text-decoration: none;
 }
-
-.contact-container, .tech-skills-container, .soft-skills-container {
+.contact-container, 
+.tech-skills-container, 
+.soft-skills-container {
 	margin-left: 40px;
 	margin-top: 54px;
 }
@@ -61,14 +62,13 @@ body {
 }
 .tech-skills-item:before,
 .soft-skills-item:before {
-    color: #ff6b08 ;/* Цвет маркера */
-	content: "\2022"; /* Сам маркер */
+    color: #ff6b08 ;
+	content: "\2022";
 	font-size: 20px;
-    padding-right: 5px; /* Расстояние от маркера до текста */
+    padding-right: 5px;
    }
 
 .main-container {
-	flex: 1;
 	margin-top: 90px;
 	margin-left: 90px;
 	line-height: 24px;
@@ -94,7 +94,6 @@ body {
 	font-weight: 700;
 	color: #ff6b08;
 }
-
 .project-container {
 	margin-top: 64px;
 }
@@ -176,14 +175,12 @@ body {
 	}
 }
   
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 	.wrapper {
-		display: flex;
 		flex-direction: column;
 		margin: 0;
 	}
 	.sidebar {
-		text-align: center;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -224,7 +221,6 @@ body {
 }
 @media screen and (max-width: 400px) {
 	.skills-wrapper {
-		-display: flex;
 		flex-direction: column;
 	}
 }
