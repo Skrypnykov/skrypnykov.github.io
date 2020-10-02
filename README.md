@@ -1,1 +1,1 @@
-# skrypnykov.github.io  
+# skrypnykov.github.io
