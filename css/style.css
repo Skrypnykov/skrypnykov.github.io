@@ -5,6 +5,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+img, object, video, embed { 
+	max-width: 100%;
+}
 
 body {
 	background-color: #f5f7fa;
@@ -164,10 +167,9 @@ body {
 .educational-institution-link {
 	color: #6666ff;
 	text-decoration: none;
-	width: 30%;
 }
 .education-img-wrapper {
-	max-width: 30%;
+	width: 30%;
 }
 .education-img{
 	width: 100%;
