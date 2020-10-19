@@ -152,6 +152,7 @@ body {
 	padding-left: 18px;
 }
 .educational-institution-specialty {
+	font-size: 12px;
 	margin: 5px 0 0;
 }
 .education-container {
@@ -166,6 +167,12 @@ body {
 }
 .educational-institution-link:hover {
 	color: #0066cc;
+}
+.education-img-wrapper {
+	max-width: 30%;
+}
+.education-img{
+	width: 100%;
 }
 
 @media screen and (max-width: 992px) {
