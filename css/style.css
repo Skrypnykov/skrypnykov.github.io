@@ -171,8 +171,33 @@ body {
 .education-img-wrapper {
 	width: 30%;
 }
-.education-img{
+.education-img {
 	width: 100%;
+}
+
+/* modal window */
+.education-img[tabindex="0"] {
+	cursor: zoom-in;
+}
+.education-img[tabindex="0"]:focus {
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+	box-shadow: 0 0 20px #000, 0 0 0 1000px rgba(210,210,210,.6);
+	outline: none;
+}
+.education-img[tabindex="0"]:focus,
+.education-img[tabindex="0"]:focus ~ * {
+	pointer-events: none;
+	cursor: zoom-out;
 }
 
 @media screen and (max-width: 992px) {
