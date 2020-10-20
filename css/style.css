@@ -171,9 +171,6 @@ body {
 .education-img-wrapper {
 	width: 30%;
 }
-.education-img {
-	width: 100%;
-}
 
 /* modal window */
 .education-img[tabindex="0"] {
@@ -199,6 +196,7 @@ body {
 	pointer-events: none;
 	cursor: zoom-out;
 }
+/* end modal window*/
 
 @media screen and (max-width: 992px) {
 	.wrapper {
