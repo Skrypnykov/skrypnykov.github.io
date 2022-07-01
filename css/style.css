@@ -113,8 +113,6 @@ body {
   font-weight: 700;
   margin-bottom: 12px;
 }
-.project-list {
-}
 .project-item {
   display: grid;
   grid-template-columns: 55% 45%;
