@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 img,
 object,
 video,
@@ -15,6 +16,7 @@ embed {
 body {
   background-color: #f5f7fa;
 }
+
 .wrapper {
   display: flex;
   margin: 2em auto;
@@ -27,6 +29,7 @@ body {
   font-weight: 400;
   letter-spacing: 0.42px;
 }
+
 .sidebar {
   min-width: 300px;
   padding-top: 40px;
@@ -34,43 +37,53 @@ body {
   color: white;
   line-height: 24px;
 }
+
 .my-photo {
   max-width: 100%;
   height: auto;
 }
+
 .contact-title {
   font-size: 22px;
 }
+
 .contact-link {
   font-size: 14px;
   opacity: 0.5;
   color: #ffffff;
 }
+
 .contact-link-type {
   margin-right: 10px;
 }
+
 .contact-container .contact-item:nth-child(2) .contact-link {
   text-decoration: none;
 }
+
 .contact-container,
 .tech-skills-container,
 .soft-skills-container {
   margin-left: 40px;
   margin-top: 54px;
 }
+
 .contact-title,
 .tech-skills-title,
 .soft-skills-title {
   margin-bottom: 10px;
 }
+
 .tech-skills-list,
 .soft-skills-list {
   padding-left: 0;
 }
+
 .tech-skills-item,
 .soft-skills-item {
   list-style-type: none;
 }
+
 .tech-skills-item:before,
 .soft-skills-item:before {
   color: #ff6b08;
@@ -83,29 +96,35 @@ body {
   margin: 5em 5em 1em;
   line-height: 24px;
 }
+
 .about-me-profession {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 20px;
 }
+
 .about-me-title {
   font-size: 45px;
   line-height: 45px;
   font-weight: 700;
   margin-bottom: 50px;
 }
+
 .about-me-text {
   margin-bottom: 10px;
   text-align: justify;
   color: #595959;
 }
+
 .about-me-highlighting {
   font-weight: 700;
   color: #ff6b08;
 }
+
 .project-container {
   margin-top: 64px;
 }
+
 .project-title,
 .work-experience-title,
 .education-title {
@@ -113,71 +132,88 @@ body {
   font-weight: 700;
   margin-bottom: 12px;
 }
+
 .project-item {
   display: grid;
   grid-template-columns: 55% 45%;
 }
+
 .project-item-link {
   text-decoration: none;
   color: #1e2939;
   font-weight: 600;
 }
+
 .project-item-link:hover {
   color: #0066cc;
 }
+
 .project-item-text {
   text-align: right;
   color: #595959;
   font-weight: 500;
 }
+
 .work-experience-container,
 .education-container {
   margin-top: 55px;
 }
+
 .company-title {
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 0.48px;
   margin-bottom: 5px;
 }
+
 .company-position-highlighting,
 .educational-institution-title {
   color: #ff6b08;
 }
+
 .company-period,
 .educational-institution-period {
   color: #a8a8a8;
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.36px;
+  margin-left: 5px;
 }
+
 .company-list {
   max-width: 600px;
   margin: 0 0 25px;
   padding-left: 18px;
 }
+
 .educational-institution-specialty {
   font-size: 12px;
-  margin: 5px 0 0;
+  margin: 5px 10px 0;
 }
+
 .education-container {
   margin-bottom: 110px;
 }
+
 .educational-institution {
   margin-bottom: 20px;
 }
+
 .educational-institution-link {
   color: #6666ff;
   text-decoration: none;
 }
+
 .education-img-wrapper {
   width: 30%;
+  display: flex;
 }
 
 /* modal window */
 .education-img[tabindex="0"] {
   cursor: zoom-in;
 }
+
 .education-img[tabindex="0"]:focus {
   position: fixed;
   z-index: 10;
@@ -193,11 +229,13 @@ body {
   box-shadow: 0 0 20px #000, 0 0 0 1000px rgba(210, 210, 210, 0.6);
   outline: none;
 }
+
 .education-img[tabindex="0"]:focus,
-.education-img[tabindex="0"]:focus ~ * {
+.education-img[tabindex="0"]:focus~* {
   pointer-events: none;
   cursor: zoom-out;
 }
+
 /* end modal window*/
 
 @media screen and (max-width: 992px) {
@@ -205,9 +243,11 @@ body {
     margin: 0 auto;
     max-width: 992px;
   }
+
   .main-container {
     margin: 5em 4em;
   }
+
   .education-container {
     margin-bottom: 0;
   }
@@ -218,9 +258,11 @@ body {
     display: grid;
     grid-template-columns: 1fr;
   }
+
   .project-item-text {
     text-align: left;
   }
+
   .main-container {
     margin: 5em 2em;
   }
@@ -231,44 +273,54 @@ body {
     flex-direction: column;
     margin: 0;
   }
+
   .sidebar {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .contact-container {
     margin: 20px 0 10px;
     display: flex;
   }
+
   .contact-title {
     margin-right: 20px;
   }
+
   .contact-item {
     display: flex;
     justify-content: flex-start;
   }
+
   .skills-wrapper {
     display: flex;
     width: 100%;
     padding: 0 50px 50px;
   }
+
   .tech-skills-container,
   .soft-skills-container {
     text-align: left;
     margin: 20px 0;
     flex: 1;
   }
+
   .main-container {
     margin: 0;
     padding: 2em;
   }
+
   .about-me-title,
   .about-me-profession {
     text-align: center;
   }
+
   .education-container {
     margin-bottom: 0;
   }
+
   .project-title,
   .work-experience-title,
   .education-title {
@@ -276,10 +328,12 @@ body {
     margin-bottom: 20px;
   }
 }
+
 @media screen and (max-width: 400px) {
   .skills-wrapper {
     flex-direction: column;
   }
+
   .educational-institution-period,
   .company-period {
     display: inline-block;
@@ -287,13 +341,16 @@ body {
     line-height: 18px;
   }
 }
+
 @media screen and (max-width: 370px) {
   .contact-container {
     flex-direction: column;
   }
+
   .contact-title {
     margin: 0 0 10px;
   }
+
   .about-me-title {
     font-size: 35px;
     line-height: 35px;
