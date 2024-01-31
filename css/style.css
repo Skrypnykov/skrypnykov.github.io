@@ -208,6 +208,9 @@ body {
   width: 30%;
   display: flex;
 }
+.education-img:not(:last-child) {
+  margin-right: 20px;
+}
 
 /* modal window */
 .education-img[tabindex="0"] {
