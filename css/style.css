@@ -188,7 +188,7 @@ body {
 
 .educational-institution-specialty {
   font-size: 12px;
-  margin: 5px 10px 0;
+  margin: 5px 5px 0;
 }
 
 .education-container {
@@ -207,6 +207,7 @@ body {
 .education-img-wrapper {
   width: 30%;
   display: flex;
+  margin: 0 0 5px 5px;
 }
 .education-img:not(:last-child) {
   margin-right: 20px;
