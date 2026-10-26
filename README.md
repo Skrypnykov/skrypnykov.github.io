@@ -69,5 +69,5 @@
 
 ### 📫 Контакти
 
-* **GitHub:** [github.com/Skrypnykov/skrypnykov](https://github.com/Skrypnykov/skrypnykov)
+* **GitHub:** [github.com/Skrypnykov](https://github.com/Skrypnykov)
 * **LinkedIn:** [linkedin.com/in/oleh-skrypnykov](https://www.linkedin.com/in/oleh-skrypnykov)
